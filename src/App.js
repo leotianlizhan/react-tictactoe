@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './assets/donut.svg';
 import './App.css';
 import Board from './components/Board.js';
+import { Container } from 'reactstrap';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <Container className="App">
         <Board />
-      </div>
+      </Container>
     );
   }
 }
